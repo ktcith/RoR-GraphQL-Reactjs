@@ -1,0 +1,20 @@
+// Place all the styles related to the client controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//= require salesforce-lightning-design-system
+//= require markdown-editor
+//= require app.css
+//= require gridforms
+//= require progress-bar-plus.css
+//= require rc_slider.scss
+
+body {
+  padding: 0;
+  margin: 0;
+  // min-height: 100vh;
+}
+
+.slds-page-header__detail-row {
+  background-color: transparent;
+}

@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title><%= h @title || "Application™" %></title>
+  <% if ENV["SENTRY_PUBLIC_DSN"].present? -%>
+  <script src="https://cdn.ravenjs.com/3.13.1/raven.min.js" crossorigin="anonymous"></script>
+  <% end -%>
+  <%= stylesheet_link_tag :client, media: "all" %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.css" />
+</head>
+<body>
+  <div id="react-app"></div>
+</body>
+<%= javascript_include_tag :client, integrity: true %>
+<% if current_user # always reset the accessToken so that we can just use devise to login %>
+<script>
+  localStorage.setItem('accessToken','<%=current_user.access_token%>')
+</script>
+<% end %>
+</html>

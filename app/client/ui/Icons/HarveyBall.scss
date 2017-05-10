@@ -1,0 +1,57 @@
+.harvey {
+	position: relative;
+	border: 1px solid #000;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	overflow: hidden;
+	background-color:#ffffff;
+	float: left;
+}
+
+.halfRight {
+	background-image: linear-gradient( to left, #000000, #000000 50.0%,#ffffff 50.0%);
+}
+
+.halfLeft {
+	background-image: linear-gradient( to right, #000000, #000000 50.0%,#ffffff 50.0%);
+}
+
+.halfTop {
+	background-image: linear-gradient( to bottom, #000000, #000000 50.0%,#ffffff 50.0%);
+}
+
+.halfBottom {
+	background-image: linear-gradient( to top, #000000, #000000 50.0%,#ffffff 50.0%);
+}
+
+.upperRight {
+	position: absolute;
+	right: 0px;
+	width: 1rem;
+	height: 1rem;
+	background-color: #000;
+}
+
+.upperLeft {
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #000;
+}
+
+.threeQuarters {
+	position: absolute;
+	left: 0.5rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #FFF;
+}
+
+.black {
+	background-color: #000;
+}
+
+.white {
+	background-color: #FFF;
+}
