@@ -1,8 +1,6 @@
 Challenge
 =========
 
-* [Challenge Overview](https://www.screencast.com/t/amdMZ2oxa9a) - 2 Minute Video Explaining Nature of Challenge
-
 * [Setting Up](https://www.screencast.com/t/fOR1EPHKVCD) - 4 Minute Video Explaining how to setup
 
 * [Backend Tips and Hints](https://www.screencast.com/t/RVqdkOHDB) - 5 Minute video introducing how to directly query the graph api served by Rails and where/how to update it.
